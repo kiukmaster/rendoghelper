@@ -7,6 +7,11 @@ const nextConfig = {
                 destination: "https://naver.com",
                 permanent: false,
             },
+            {
+                source: "/randomhelper",
+                destination: "https://naver.com",
+                permanent: false,
+            },
         ];
     },
 };
