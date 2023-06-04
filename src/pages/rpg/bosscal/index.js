@@ -1,7 +1,221 @@
-export default function MoneyCal() {
+import { useRef, useState } from "react";
+
+export default function BossCal() {
+    const inputRefs = useRef([]);
+    const inputRefs2 = useRef([]);
+    const [bossShowModal, setBossShowModal] = useState(false);
+    const [miniBossShowModal, setMiniBossShowModal] = useState(false);
+    const [money, setMoney] = useState([]);
+    const [miniMoney, setMiniMoney] = useState([]);
+
+    const closeModal = () => {
+        setBossShowModal(false);
+        setMiniBossShowModal(false);
+    }
+
+    const onClickBossBtn = () => {
+        setBossShowModal(true);
+        const bosscal = [
+            inputRefs.current[0].value * 1, // 라슬 41
+            inputRefs.current[1].value * 2, // 스켈 42
+            inputRefs.current[2].value * 2, // 사콰 42
+            inputRefs.current[3].value * 3, // 파골 43
+            inputRefs.current[4].value * 4, // 스이 51 = 4 4
+            inputRefs.current[5].value * 6, // 엘가 5142 = 4 6
+            inputRefs.current[6].value * 16 // 스테 61 = 4 16
+        ].reduce((a, b) => a + b, 0); // 배열 안의 4강 전부 합침.
+
+        const stoneTiers = [bosscal, 0, 0, 0, 0, 0, 0];
+
+        for (let moneyNum = 0; moneyNum <= 5; moneyNum++) {
+            if (stoneTiers[moneyNum] >= 4) {
+                stoneTiers[moneyNum + 1] = Number(stoneTiers[moneyNum + 1])
+                + Math.floor(stoneTiers[moneyNum] / 4);
+                stoneTiers[moneyNum] = stoneTiers[moneyNum] % 4;
+            }
+        }
+        setMoney([...stoneTiers]);
+    }
+
+    const onClickMiniBossBtn = () => {
+        setMiniBossShowModal(true);
+        const bosscal = [
+            inputRefs2.current[0].value * 1, // 락토 31
+            inputRefs2.current[1].value * 3, // 바드 33
+            inputRefs2.current[2].value * 8, // 예티 42 = 3 8
+            inputRefs2.current[3].value * 8, // 겁선 42 = 3 8
+            inputRefs2.current[4].value * 16, // 레클 51 = 3 16
+            inputRefs2.current[5].value * 64, // 오징어 61 = 3 64
+            inputRefs2.current[6].value * 48 // 피레이세 53 = 3 48
+        ].reduce((a, b) => a + b, 0); // 배열 안의 3강 전부 합침.
+
+        const stoneTiers = [bosscal, 0, 0, 0, 0, 0, 0, 0];
+
+        for (let moneyNum = 0; moneyNum <= 6; moneyNum++) {
+            if (stoneTiers[moneyNum] >= 4) {
+                stoneTiers[moneyNum + 1] = Number(stoneTiers[moneyNum + 1])
+                + Math.floor(stoneTiers[moneyNum] / 4);
+                stoneTiers[moneyNum] = stoneTiers[moneyNum] % 4;
+            }
+        }
+        setMiniMoney([...stoneTiers]);
+    }
+
     return (
-        <div>
-            반갑다
+        <div className="ta_center">
+            <h2>가격은 유저거래 기준입니다. 공식아님.</h2>
+            <div className="boss_main_cal_container">
+                <div className="boss_sub_cal_container">
+                    <img src="/boss/boss1.png" alt="..." loading="lazy" />
+                    라바슬라임 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[0] = el)} />
+                    <br />
+                    <img src="/boss/boss2.png" alt="..." loading="lazy" />
+                    기간틱 스켈레톤 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[1] = el)} />
+                    <br />
+                    <img src="/boss/boss3.png" alt="..." loading="lazy" />
+                    사스콰치 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[2] = el)} />
+                    <br />
+                    <img src="/boss/boss4.png" alt="..." loading="lazy" />
+                    파멸의 골렘 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[3] = el)} />
+                    <br />
+                    <img src="/boss/boss5.png" alt="..." loading="lazy" />
+                    스피드이더 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[4] = el)} />
+                    <br />
+                    <img src="/boss/boss6.png" alt="..." loading="lazy" />
+                    엘더 가디언 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[5] = el)} />
+                    <br />
+                    <img src="/boss/boss7.png" alt="..." loading="lazy" />
+                    스테들러 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs.current[6] = el)} />
+                    <br />
+                    <button onClick={onClickBossBtn}>계산하기</button>
+
+                    {bossShowModal &&
+                        <div className="BackModalBox" onClick={closeModal}>
+                            <div className="ModalBoxDetail" onClick={(e) => e.stopPropagation()}>
+                                <img src="/calimg/4.png" />
+                                4강 강화석 : 
+                                <input className="ta_center input_size" value={money[0]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/5.png" />
+                                5강 강화석 : 
+                                <input className="ta_center input_size" value={money[1]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/6.png" />
+                                6강 강화석 : 
+                                <input className="ta_center input_size" value={money[2]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/7.png" />
+                                7강 강화석 : 
+                                <input className="ta_center input_size" value={money[3]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/8.png" />
+                                8강 강화석 : 
+                                <input className="ta_center input_size" value={money[4]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/9.png" />
+                                9강 강화석 : 
+                                <input className="ta_center input_size" value={money[5]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/10.png" />
+                                10강 강화석 : 
+                                <input className="ta_center input_size" value={money[6]} type="text" readOnly />개
+                            </div>
+                        </div>}
+                </div>
+                <div className="boss_sub_cal_container">
+                    <img src="/miniboss/miniboss1.png" alt="..." loading="lazy" />
+                    가디언 락토 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[0] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss2.png" alt="..." loading="lazy" />
+                    바드 스켈레톤 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[1] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss3.png" alt="..." loading="lazy" />
+                    스노우 예티 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[2] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss4.png" alt="..." loading="lazy" />
+                    겁쟁이 선장 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[3] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss5.png" alt="..." loading="lazy" />
+                    레클루즈 거미 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[4] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss6.png" alt="..." loading="lazy" />
+                    오징오징 대마왕 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[5] = el)} />
+                    <br />
+                    <img src="/miniboss/miniboss7.png" alt="..." loading="lazy" />
+                    피레이세 :
+                    <input type="number" placeholder="개수를 입력하세요." ref={(el) => (inputRefs2.current[6] = el)} />
+                    <br />
+                    <button onClick={onClickMiniBossBtn}>계산하기</button>
+
+                    {miniBossShowModal &&
+                        <div className="BackModalBox" onClick={closeModal}>
+                            <div className="ModalBoxDetail" onClick={(e) => e.stopPropagation()}>
+                                <img src="/calimg/3.png" />
+                                3강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[0]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/4.png" />
+                                4강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[1]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/5.png" />
+                                5강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[2]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/6.png" />
+                                6강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[3]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/7.png" />
+                                7강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[4]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/8.png" />
+                                8강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[5]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/9.png" />
+                                9강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[6]} type="text" readOnly />개
+                                <br />
+                                <img src="/calimg/10.png" />
+                                10강 강화석 : 
+                                <input className="ta_center input_size" value={miniMoney[7]} type="text" readOnly />개
+                            </div>
+                        </div>}
+                </div>
+                <style jsx>{`
+                    button {
+                        cursor: pointer;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        width: 100px;
+                        height: 35px;
+                        border: solid 2px purple;
+                        border-radius: 20px;
+                    }
+                    
+                    input {
+                        margin-left: 5px;
+                        height: 24px;
+                        border: solid 3px black;
+                        border-radius: 8px;
+                    }
+                `}</style>
+            </div>
         </div>
     );
 }

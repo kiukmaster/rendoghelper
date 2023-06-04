@@ -1,0 +1,275 @@
+[
+    {
+      "name": "초월 네크로해머",
+      "color": "#FF5555",
+      "videoURL": "unique/초월 네크로헤머.mp4",
+      "information": {
+        "rightClick": [
+          "천천히 공중으로 떠오른 뒤 날아가 적들을 띄우고 데미지를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "지면을 타격 후 폭발지대를 생성합니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 데스페라도",
+      "color": "#AA00AA",
+      "videoURL": "unique/초월 데스페라도.mp4",
+      "information": {
+        "rightClick": [
+          "사용시 일정시간 비행하며 끝난뒤 내려찍어 범위내 적에게 피해를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "비행 도중에도 적들을 타격합니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 라이오닉",
+      "color": "#AA0000",
+      "videoURL": "unique/초월 라이오닉.mp4",
+      "information": {
+        "rightClick": [
+          "포탑을 설치해 주변 적을 자동으로 타격합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "주변 적을 3회 연속타격"
+        ]
+      }
+    },
+    {
+      "name": "초월 마그네트",
+      "color": "#AA0000",
+      "videoURL": "unique/초월 마그네트.mp4",
+      "information": {
+        "rightClick": [
+          "10초간 이동하는 행성을 소환하여 지속시간동안 최대 15명의 적을 5회공격"
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "타격 간의 딜레이 감소"
+        ]
+      }
+    },
+    {
+      "name": "초월 매직콜리젼",
+      "color": "#FFFF55",
+      "videoURL": "unique/초월 매직 콜리젼.mp4",
+      "information": {
+        "rightClick": [
+          "빛의 화살을 날려 적과 위치를 바꿉니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "위치 변경 후 추가피해를 드립니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 메테오",
+      "color": "#AA0000",
+      "videoURL": "unique/초월 메테오.mp4",
+      "information": {
+        "rightClick": [
+          "바라보는 지점에 유성을 떨궈 데미지를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "운석 개수 3개로 증가"
+        ]
+      }
+    },
+    {
+      "name": "초월 볼케이노",
+      "color": "#FF5555",
+      "videoURL": "unique/초월 볼케이노.mp4",
+      "information": {
+        "rightClick": [
+          "불기둥을 소환하여 적들에게 피해를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "불기둥 개수 5개로 증가"
+        ]
+      }
+    },
+    {
+      "name": "초월 사령소환",
+      "color": "#949494",
+      "videoURL": "unique/초월 사령소환.mp4",
+      "information": {
+        "rightClick": [
+          "사령을 소환하여 주변 적에게 피해를 연속적으로 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "시전시간 중 은신"
+        ]
+      }
+    },
+    {
+      "name": "초월 셀프익스팅션",
+      "color": "#000000",
+      "videoURL": "unique/초월 셀프익스팅션.mp4",
+      "information": {
+        "rightClick": [
+          "7초동안 스킬을 준비하고 자폭하며 주변에 매우 큰 데미지를 줍니다."
+        ],
+        "leftClick": [
+          "폭발 단계 설정(1단계, 2단계, 3단계)"
+        ],
+        "whenTrancendence": [
+          "1단계 3000, 2단계 5000, 3단계 10000"
+        ]
+      }
+    },
+    {
+      "name": "초월 스타 런쳐",
+      "color": "#FFFF55",
+      "videoURL": "unique/초월 스타런처.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적을 무차별 폭격합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "스킬이 변경됩니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 스타블래스터",
+      "color": "#FFFF55",
+      "videoURL": "unique/초월 스타블래스터.mp4",
+      "information": {
+        "rightClick": [
+          "시전자가 공중으로 날아올라 별을 발사합니다. 마지막 별은 강력합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "시전 도중 플라이, 발사량 증가"
+        ]
+      }
+    },
+    {
+      "name": "초월 스톰크러셔",
+      "color": "#FFFF55",
+      "videoURL": "unique/초월 스톰크러셔.mp4",
+      "information": {
+        "rightClick": [
+          "먼 거리를 도약하며 지면을 강타하여 데미지를 입힙니다.",
+          "주변의 힘을 흡수해 주는피해 20% 증가합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "주는 피해 증가량이 50%가 됩니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 에반리스트",
+      "color": "#FF55FF",
+      "videoURL": "unique/초월 에반리스트.mp4",
+      "information": {
+        "rightClick": [
+          "주변으로 짧게 도약하여 적들을 타격하고 체력 20%를 회복합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "무적시간 0.5초 추가"
+        ]
+      }
+    },
+    {
+      "name": "초월 트랩",
+      "color": "#FFAA00 ",
+      "videoURL": "unique/초월 트랩.mp4",
+      "information": {
+        "rightClick": [
+          "현재 위치에 트랩을 설치하여 적들을 구속시키고 데미지를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "피해 대상을 속박시킵니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 트리플스타",
+      "color": "#FFFF55",
+      "videoURL": "unique/초월 트리플 스타.mp4",
+      "information": {
+        "rightClick": [
+          "주변에 별 3개를 생성하여 발사 후 폭발시킵니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "10초동안 별이 지속됩니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 프로미넌트",
+      "color": "#FFAA00",
+      "videoURL": "unique/초월 프로미넌트.mp4",
+      "information": {
+        "rightClick": [
+          "전방으로 화염을 35회 발사합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "화염이 중력의 영향을 받지 않습니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 헤비스매셔",
+      "color": "#5555FF",
+      "videoURL": "unique/초월 헤비스매셔.mp4",
+      "information": {
+        "rightClick": [
+          "사용자가 공중으로 도약 후 지면을 내려찍어 데미지를 줍니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "여진을 발생시켜 추가피해를 입힙니다."
+        ]
+      }
+    }  
+  ]

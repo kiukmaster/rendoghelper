@@ -1,0 +1,146 @@
+[
+    {
+      "name": "초월 다크로즈",
+      "color": "#000000",
+      "videoURL": "legend/초월다크로즈.mp4",
+      "information": {
+        "rightClick": [
+          "3초동안 무적이되며 적들을 끌어당기며 16회 타격합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "꽃의 보호가 끝난 후 폭발합니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 문라이트",
+      "color": "#00AAAA",
+      "videoURL": "legend/초월문라이트.mp4",
+      "information": {
+        "rightClick": [
+          "영혼 소모없이 떠오르며 주변 적에게 강력한 피해를 줍니다."
+        ],
+        "leftClick": [
+          "적들을 3회 공격하면서 돌진합니다."
+        ],
+        "whenTrancendence": [
+          "영혼 20중첩시 다음 스킬이 강화됩니다.(좌 우 전부)"
+        ]
+      }
+    },
+    {
+      "name": "초월 브이미르",
+      "color": "#555555",
+      "videoURL": "legend/초월브이미르.mp4",
+      "information": {
+        "rightClick": [
+          "좌클릭이 강화되며 쿨타임이 사라집니다."
+        ],
+        "leftClick": [
+          "총 3번 사용 가능하고 돌진하며 피해를 줍니다."
+        ],
+        "whenTrancendence": [
+          "범위 및 좌클릭의 기본 데미지가 증가합니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 블레이드 브랜디쉬",
+      "color": "#555555",
+      "videoURL": "legend/초월블브.mp4",
+      "information": {
+        "rightClick": [
+          "앞으로 돌진하며 주변 적들을 10회 타격하며 위로 떠오릅니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "후속 딜레이가 사라집니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 세크리트",
+      "color": "#949494",
+      "videoURL": "legend/초월세크리트.mp4",
+      "information": {
+        "rightClick": [
+          "바라보는 지점에 적들을 띄워 3.5초뒤 큰 피해를 입히며 적들을 떨굽니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "시전시간 절반 감소 및 시전중 플라이"
+        ]
+      }
+    },
+    {
+      "name": "초월 하데스",
+      "color": "#AA00AA",
+      "videoURL": "legend/초월하데스.mp4",
+      "information": {
+        "rightClick": [
+          "적들의 움직임을 4초간 멈추고 이후 강력한 피해를 입힙니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "적중 대상 속박 및 시전 딜레이 감소"
+        ]
+      }
+    },
+    {
+      "name": "초월 혈계심판",
+      "color": "#AA0000",
+      "videoURL": "legend/초월혈심.mp4",
+      "information": {
+        "rightClick": [
+          "주변의 모든 적을 20회까지 타격합니다. 입힌 피해의 5%를 회복합니다."
+        ],
+        "leftClick": [
+          "주변 적들에게 피해를 줍니다."
+        ],
+        "whenTrancendence": [
+          "우클릭의 타겟이 된 적은 저주, 우클릭 도중 좌클릭 사용가능"
+        ]
+      }
+    },
+    {
+      "name": "초월 흑월참",
+      "color": "#000000",
+      "videoURL": "legend/초월흑월참.mp4",
+      "information": {
+        "rightClick": [
+          "스킬을 준비하고 도약하며 넓은 범위를 벱니다."
+        ],
+        "leftClick": [
+          "전방을 3번 벤다."
+        ],
+        "whenTrancendence": [
+          "우클릭 적중 후 600의 폭발데미지를 입힙니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 흡혈귀",
+      "color": "#AA0000",
+      "videoURL": "legend/초월흡혈귀.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적들을 14회(1.6초) 타격해 큰 폭발을 일으킵니다. 피해량의 50%를 회복합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "폭발피해를 입은 적 3초간 저주 부여"
+        ]
+      }
+    }
+  ]

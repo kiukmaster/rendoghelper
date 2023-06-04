@@ -1,0 +1,180 @@
+[
+    {
+      "name": "초월 가디언",
+      "color": "#029302",
+      "videoURL": "epic/초월가디언.mp4",
+      "information": {
+        "rightClick": [
+          "일정 시간동안 무적 상태가 된다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "주변 적에게 구속4를 부여."
+        ]
+      }
+    },
+    {
+      "name": "초월 리스크",
+      "color": "#020195",
+      "videoURL": "epic/초월리스크.mp4",
+      "information": {
+        "rightClick": [
+          "체력을 모두 소모하여 소모한 체력의 400%를 회복합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "체력의 50%를 베리어로 전환"
+        ]
+      }
+    },
+    {
+      "name": "초월 블랙홀",
+      "color": "#555555",
+      "videoURL": "epic/초월블랙홀.mp4",
+      "information": {
+        "rightClick": [
+          "바라보는 지점에 일정시간 적들을 끌어당깁니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "범위 내의 적 저주 및 시전자의 이동속도 증가"
+        ]
+      }
+    },
+    {
+      "name": "초월 비숍",
+      "color": "#FF55FF",
+      "videoURL": "epic/초월비숍.mp4",
+      "information": {
+        "rightClick": [
+          "최대 체력에 비례하여 회복한다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "시전시간 도중 저항 3 부여."
+        ]
+      }
+    },
+    {
+      "name": "초월 슈메티드",
+      "color": "#949494",
+      "videoURL": "epic/초월슈메티드.mp4",
+      "information": {
+        "rightClick": [
+          "앞으로 멀리 날아갑니다."
+        ],
+        "leftClick": [
+          "위로 뛰어오릅니다."
+        ],
+        "whenTrancendence": [
+          "좌클릭 추가"
+        ]
+      }
+    },
+    {
+      "name": "초월 아르마",
+      "color": "#AA00AA",
+      "videoURL": "epic/초월아르마.mp4",
+      "information": {
+        "rightClick": [
+          "결계를 생성해 지속시간 동안 범위 내 적들의 이동속도를 훔침."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "범위 내의 적들에게 저주 부여."
+        ]
+      }
+    },
+    {
+      "name": "초월 에놉시스",
+      "color": "#AA00AA",
+      "videoURL": "epic/초월에놉시스.mp4",
+      "information": {
+        "rightClick": [
+          "지속시간동안 받는피해120% 와 주는피해150% 가 증가."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "입힌 피해의 5%만큼 추가피해"
+        ]
+      }
+    },
+    {
+      "name": "초월 워터폴",
+      "color": "#55FFFF",
+      "videoURL": "epic/초월워터폴.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적을 밀쳐내고 공중으로 도약후 버프를 받음."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "적을 밀쳐내며 공중으로 띄웁니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 익스플로젼",
+      "color": "#FFAA00",
+      "videoURL": "epic/초월익스플로젼.mp4",
+      "information": {
+        "rightClick": [
+          "이동속도가 증가하고 끝날때 주변 적을 속박합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "시전 중 주는 피해 10% 증가"
+        ]
+      }
+    },
+    {
+      "name": "초월 프런처",
+      "color": "#00AAAA",
+      "videoURL": "epic/초월프런처.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적의 이동속도를 스틸합니다.",
+          "3번 사용할때 마다 체력을 회복합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "5회 사용시 1초 무적"
+        ]
+      }
+    },
+    {
+      "name": "초월 하포럼",
+      "color": "#FF5555",
+      "videoURL": "epic/초월하포럼.mp4",
+      "information": {
+        "rightClick": [
+          "주변에 회복구슬을 뿌리며 구슬을 주울경우",
+          "이동속도가 증가하며 체력을 회복합니다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "회복 구슬 섭취시 0.75초 무적"
+        ]
+      } 
+    }
+  ]

@@ -1,0 +1,67 @@
+[
+    {
+      "name": "초월 레이네드",
+      "color": "#000000",
+      "videoURL": "supe/초월레이네드.mp4",
+      "information": {
+        "rightClick": [
+          "현재 위치에 7초간 지속적으로 강력해지는 피해를 입히며 도약하고 재사용시 돌아갑니다."
+        ],
+        "leftClick": [
+          "주변 적들을 모으고 크게뛰어올라 데미지를 입히고 출혈피해를 입힙니다."
+        ],
+        "whenTrancendence": [
+          "우클릭이 적을 끌어당깁니다.",
+          "스킬에 맞은 적은 저주에 걸립니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 디바우어",
+      "color": "#FFAA00",
+      "videoURL": "supe/초월디바우어.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적을 17회(5초간) 타격하며 띄우고 타격 중첩을 1 쌓습니다. 3회일경우 강화됩니다. 피해량의 10% 흡혈"
+        ],
+        "leftClick": [
+          "적들을 3회 타격 후 바닥에 창을 내려 꽂아 피해를 줍니다."
+        ],
+        "whenTrancendence": [
+          "탐식 중첩 3회로 감소"
+        ]
+      }
+    },
+    {
+      "name": "초월 잔월효성",
+      "color": "#55FFFF",
+      "videoURL": "supe/초월잔월효성.mp4",
+      "information": {
+        "rightClick": [
+          "전방으로 내려 찍으며 적들에게 피해를 줍니다."
+        ],
+        "leftClick": [
+          "돌진하며 적들에게 피해를 입힙니다."
+        ],
+        "whenTrancendence": [
+          "좌클릭이 변경되며, 데미지가 증가합니다."
+        ]
+      }
+    },
+    {
+      "name": "초월 타라시스",
+      "color": "#555555",
+      "videoURL": "supe/초월타라시스.mp4",
+      "information": {
+        "rightClick": [
+          "주변 적들을 모아 위로 띄우며 낙뢰를 떨궈 큰 데미지를 입힙니다."
+        ],
+        "leftClick": [
+          "주변 적들을 감전시키며 지속피해를 입힙니다."
+        ],
+        "whenTrancendence": [
+          "적중당한 적들은 둔화됩니다."
+        ]
+      }
+    }
+  ]
