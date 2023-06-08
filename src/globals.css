@@ -2,6 +2,20 @@ html, body {
     margin: 0;
 }
 
+.random_select_container{
+    display: grid;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.random_menu_container {
+    padding: 1rem;
+    width: 300px;
+    border: solid 2px #5E5E5E;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
 .result_box {
     margin: 100px;
 }

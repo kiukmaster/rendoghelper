@@ -8,7 +8,7 @@ export default function RpgPage() {
                     <Link href="/rpg/moneycal" legacyBehavior>
                         <a>
                             <img src="/calimg/5.png" alt="..." loading="lazy" />
-                            <p>강화석 계산기(완)</p>
+                            <p>강화석 계산기</p>
                         </a>
                     </Link>
                 </div>
@@ -16,7 +16,7 @@ export default function RpgPage() {
                     <Link href="/rpg/bosscal" legacyBehavior>
                         <a>
                             <img src="/boss/boss7.png" alt="..." loading="lazy" />
-                            <p>전리품 계산기(완)</p>
+                            <p>전리품 계산기</p>
                         </a>
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function RpgPage() {
                     <Link href="/rpg/moblib" legacyBehavior>
                         <a>
                             <img src="/mob/38.png" alt="..." loading="lazy" />
-                            <p>몬스터 도감(완)</p>
+                            <p>몬스터 도감</p>
                         </a>
                     </Link>
                 </div>
@@ -32,7 +32,7 @@ export default function RpgPage() {
                     <Link href="/rpg/weaponlib" legacyBehavior>
                         <a>
                             <img src="/2.png" alt="..." loading="lazy" />
-                            <p>무기 도감(완)</p>
+                            <p>무기 도감</p>
                         </a>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ export default function RpgPage() {
                     <Link href="/rpg/rboxsimulation" legacyBehavior>
                         <a>
                             <img src="/chest.png" alt="..." loading="lazy" />
-                            <p>랜덤박스 시뮬레이션(완)</p>
+                            <p>랜덤박스 시뮬레이션</p>
                         </a>
                     </Link>
                 </div>
@@ -48,7 +48,7 @@ export default function RpgPage() {
                     <Link href="/rpg/mboxsimulation" legacyBehavior>
                         <a>
                             <img src="/echest.png" alt="..." loading="lazy" />
-                            <p>미스틱박스 시뮬레이션(완)</p>
+                            <p>미스틱박스 시뮬레이션</p>
                         </a>
                     </Link>
                 </div>
@@ -57,6 +57,7 @@ export default function RpgPage() {
                         <a>
                             <img src="timer.jpg" alt="..." loading="lazy" />
                             <p>인게임 보스시간 확인하기</p>
+                            <p>커밍 순</p>
                         </a>
                     </Link>
                 </div>
