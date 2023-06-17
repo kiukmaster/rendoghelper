@@ -1,0 +1,34 @@
+[
+    {
+      "name": "애니버서리 배틀 엑스",
+      "color": "#FF5555",
+      "videoURL": "special/ABA.mp4",
+      "information": {
+        "rightClick": [
+          "일정 시간동안 무적 상태가 된다."
+        ],
+        "leftClick": [
+          "X"
+        ],
+        "whenTrancendence": [
+          "X"
+        ]
+    }
+    },
+    {
+        "name": "가디언",
+        "color": "#029302",
+        "videoURL": "epic/가디언.mp4",
+        "information": {
+          "rightClick": [
+            "일정 시간동안 무적 상태가 된다."
+          ],
+          "leftClick": [
+            "X"
+          ],
+          "whenTrancendence": [
+            "X"
+          ]
+      }
+      },
+]
