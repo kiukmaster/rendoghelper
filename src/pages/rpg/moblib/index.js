@@ -42,14 +42,14 @@ export default function MobCollection() {
                 {filterData.map((mob) => {
                     return(
                     <div className="mob_lib_sub_container" key={mob.id}>
-                        <img src={`/mob/${mob.id}.png`} alt="..." loading="lazy" />
+                        <img src={`/mob/${mob.id}.png`} alt="..." width={300} height={200} loading="lazy" />
                         <button className="MobModalBtn" onClick={() => openModal(mob)}>{mob.name}</button>
                     </div>)
                 })}
             {showModal &&
                 <div className="BackModalBox" onClick={closeModal}>
                     <div className="ModalBoxDetail ta_center" onClick={(e) => e.stopPropagation()}>
-                        <img src={`/mob/${modalData.id}.png`} alt="..." loading="lazy" /> <br />
+                        <img src={`/mob/${modalData.id}.png`} width={300} height={200} alt="..." loading="lazy" /> <br />
                             이름 : {modalData.name} <br />
                             <span style={{ color: 'red' }}>HP</span> : {modalData.hp} <br />
                             <span style={{ color: 'crimson' }}>AttackDamage</span> : {modalData.ad} <br />
@@ -62,12 +62,6 @@ export default function MobCollection() {
                     </div>
                 </div>}
             </div>
-            <style jsx>{`
-                img {
-                    width: 300px;
-                    height: 200px;
-                }
-            `}</style>
         </div>
     );
 }
