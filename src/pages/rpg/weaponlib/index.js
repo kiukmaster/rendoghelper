@@ -16,9 +16,9 @@ export default function WeaponPage() {
             fetch('/choEpic.json').then((response) => response.json()),
             fetch('/choUnique.json').then((response) => response.json()),
             fetch('/choLegend.json').then((response) => response.json()),
-            fetch('/choSuperior.json').then((response) => response.json())
+            fetch('/choSuperior.json').then((response) => response.json()),
         ]).then(([epicData, uniqueData, legendData, supeData, choEpicData, choUniqueData, choLegendData, choSupeData]) => {
-            setData([...epicData, ...uniqueData, ...legendData, ...supeData, ...choEpicData, ...choUniqueData, ...choLegendData, ...choSupeData]);
+            setData([...epicData, ...uniqueData, ...legendData, ...supeData, ...choEpicData, ...choUniqueData, ...choLegendData, ...choSupeData ]);
             setIsLoading(false);
         });
     }, []);
@@ -72,12 +72,38 @@ export default function WeaponPage() {
                         <span style={{ color: '#FF9D0F' }}>우클릭</span> : {modalData.information.rightClick} <br />
                         <span style={{ color: '#FF9D0F' }}>좌클릭</span> : {modalData.information.leftClick} <br />
                         <span style={{ color: 'purple' }}>초월 능력</span> : {modalData.information.whenTrancendence}
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>빨강 강화석</th>
+                                <th>노랑 강화석</th>
+                                <th>초록 강화석</th>
+                                <th>파랑 강화석</th>
+                                <th>보라 강화석</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>{modalData.RedStone}</td>
+                                <td>{modalData.YellowStone}</td>
+                                <td>{modalData.GreenStone}</td>
+                                <td>{modalData.BlueStone}</td>
+                                <td>{modalData.PurpleStone}</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 }
             <style jsx>{`
                 table {
-                    width: 100%;
+                    border-collapse: collapse; /* 셀 경계를 병합하여 구분선을 만듦 */
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+                th, td {
+                    border: 1px solid black; /* 각 셀에 1px 굵기의 검은색 선을 추가 */
+                    padding: 8px; /* 셀 내부 여백 설정 */
                 }
 
                 video {

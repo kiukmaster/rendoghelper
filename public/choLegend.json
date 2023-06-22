@@ -4,6 +4,11 @@
       "imgURL": "wpimg/legend/legend2/9.png",
       "color": "#000000",
       "videoURL": "legend/초월다크로즈.mp4",
+      "RedStone": 3,
+      "YellowStone": 1,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 5,
       "information": {
         "rightClick": [
           "3초동안 무적이되며 적들을 끌어당기며 16회 타격합니다."
@@ -21,6 +26,11 @@
       "imgURL": "wpimg/legend/legend2/7.png",
       "color": "#00AAAA",
       "videoURL": "legend/초월문라이트.mp4",
+      "RedStone": 2,
+      "YellowStone": 2,
+      "GreenStone": 2,
+      "BlueStone": 3,
+      "PurpleStone": 0,
       "information": {
         "rightClick": [
           "영혼 소모없이 떠오르며 주변 적에게 강력한 피해를 줍니다."
@@ -38,6 +48,11 @@
       "imgURL": "wpimg/legend/legend2/8.png",
       "color": "#555555",
       "videoURL": "legend/초월브이미르.mp4",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 3,
+      "BlueStone": 3,
+      "PurpleStone": 1,
       "information": {
         "rightClick": [
           "좌클릭이 강화되며 쿨타임이 사라집니다."
@@ -55,6 +70,11 @@
       "imgURL": "wpimg/legend/legend2/6.png",
       "color": "#555555",
       "videoURL": "legend/초월블브.mp4",
+      "RedStone": 0,
+      "YellowStone": 1,
+      "GreenStone": 2,
+      "BlueStone": 1,
+      "PurpleStone": 5,
       "information": {
         "rightClick": [
           "앞으로 돌진하며 주변 적들을 10회 타격하며 위로 떠오릅니다."
@@ -72,6 +92,11 @@
       "imgURL": "wpimg/legend/legend2/5.png",
       "color": "#949494",
       "videoURL": "legend/초월세크리트.mp4",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 1,
+      "BlueStone": 4,
+      "PurpleStone": 4,
       "information": {
         "rightClick": [
           "바라보는 지점에 적들을 띄워 3.5초뒤 큰 피해를 입히며 적들을 떨굽니다."
@@ -89,6 +114,11 @@
       "imgURL": "wpimg/legend/legend2/3.png",
       "color": "#AA00AA",
       "videoURL": "legend/초월하데스.mp4",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 2,
+      "PurpleStone": 4,
       "information": {
         "rightClick": [
           "적들의 움직임을 4초간 멈추고 이후 강력한 피해를 입힙니다."
@@ -106,6 +136,11 @@
       "imgURL": "wpimg/legend/legend2/4.png",
       "color": "#AA0000",
       "videoURL": "legend/초월혈심.mp4",
+      "RedStone": 5,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 1,
+      "PurpleStone": 1,
       "information": {
         "rightClick": [
           "주변의 모든 적을 20회까지 타격합니다. 입힌 피해의 5%를 회복합니다."
@@ -123,6 +158,11 @@
       "imgURL": "wpimg/legend/legend2/2.png",
       "color": "#000000",
       "videoURL": "legend/초월흑월참.mp4",
+      "RedStone": 1,
+      "YellowStone": 4,
+      "GreenStone": 3,
+      "BlueStone": 1,
+      "PurpleStone": 0,
       "information": {
         "rightClick": [
           "스킬을 준비하고 도약하며 넓은 범위를 벱니다."
@@ -140,6 +180,11 @@
       "imgURL": "wpimg/legend/legend2/1.png",
       "color": "#AA0000",
       "videoURL": "legend/초월흡혈귀.mp4",
+      "RedStone": 3,
+      "YellowStone": 3,
+      "GreenStone": 1,
+      "BlueStone": 0,
+      "PurpleStone": 2,
       "information": {
         "rightClick": [
           "주변 적들을 14회(1.6초) 타격해 큰 폭발을 일으킵니다. 피해량의 50%를 회복합니다."

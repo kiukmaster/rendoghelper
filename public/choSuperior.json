@@ -4,6 +4,11 @@
       "imgURL": "wpimg/supe/supe2/3.png",
       "color": "#000000",
       "videoURL": "supe/초월레이네드.mp4",
+      "RedStone": 4,
+      "YellowStone": 4,
+      "GreenStone": 4,
+      "BlueStone": 4,
+      "PurpleStone": 9,
       "information": {
         "rightClick": [
           "현재 위치에 7초간 지속적으로 강력해지는 피해를 입히며 도약하고 재사용시 돌아갑니다."
@@ -22,6 +27,11 @@
       "imgURL": "wpimg/supe/supe2/1.png",
       "color": "#FFAA00",
       "videoURL": "supe/초월디바우어.mp4",
+      "RedStone": 9,
+      "YellowStone": 9,
+      "GreenStone": 1,
+      "BlueStone": 0,
+      "PurpleStone": 6,
       "information": {
         "rightClick": [
           "주변 적을 17회(5초간) 타격하며 띄우고 타격 중첩을 1 쌓습니다. 3회일경우 강화됩니다. 피해량의 10% 흡혈"
@@ -39,6 +49,11 @@
       "imgURL": "wpimg/supe/supe2/2.png",
       "color": "#55FFFF",
       "videoURL": "supe/초월잔월효성.mp4",
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 8,
+      "BlueStone": 9,
+      "PurpleStone": 5,
       "information": {
         "rightClick": [
           "전방으로 내려 찍으며 적들에게 피해를 줍니다."
@@ -56,6 +71,11 @@
       "imgURL": "wpimg/supe/supe2/4.png",
       "color": "#555555",
       "videoURL": "supe/초월타라시스.mp4",
+      "RedStone": 2,
+      "YellowStone": 6,
+      "GreenStone": 9,
+      "BlueStone": 1,
+      "PurpleStone": 7,
       "information": {
         "rightClick": [
           "주변 적들을 모아 위로 띄우며 낙뢰를 떨궈 큰 데미지를 입힙니다."

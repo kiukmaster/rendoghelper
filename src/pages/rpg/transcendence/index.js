@@ -12,7 +12,7 @@ export default function ChoHelp() {
                 const jsonData = await response.json();
                 setData(jsonData);
             } catch (error) {
-                console.error('데이터를 불러오는 중 에러가 발생했습니다:', error);
+                console.error('데이터를 불러오는 중 에러가 발생했습니다 : ', error);
             }
         };
     
@@ -42,9 +42,8 @@ export default function ChoHelp() {
                     <input
                         className='stone_input'
                         type='number'
-                        placeholder='초월석의 수를 입력하세요.'
+                        placeholder='0'
                         ref={(e) => (searchInputs.current[0] = e)}
-                        defaultValue={0}
                         />
                 </li>
                 <li>
@@ -53,9 +52,8 @@ export default function ChoHelp() {
                     <input
                         className='stone_input'
                         type='number'
-                        placeholder='초월석의 수를 입력하세요.'
+                        placeholder='0'
                         ref={(e) => (searchInputs.current[1] = e)}
-                        defaultValue={0}
                         />
                 </li>
                 <li>
@@ -64,9 +62,8 @@ export default function ChoHelp() {
                     <input
                         className='stone_input'
                         type='number'
-                        placeholder='초월석의 수를 입력하세요.'
+                        placeholder='0'
                         ref={(e) => (searchInputs.current[2] = e)}
-                        defaultValue={0}
                         />
                 </li>
                 <li>
@@ -75,9 +72,8 @@ export default function ChoHelp() {
                     <input
                         className='stone_input'
                         type='number'
-                        placeholder='초월석의 수를 입력하세요.'
+                        placeholder='0'
                         ref={(e) => (searchInputs.current[3] = e)}
-                        defaultValue={0}
                         />
                 </li>
                 <li>
@@ -86,9 +82,8 @@ export default function ChoHelp() {
                     <input
                         className='stone_input'
                         type='number'
-                        placeholder='초월석의 수를 입력하세요.'
+                        placeholder='0'
                         ref={(e) => (searchInputs.current[4] = e)}
-                        defaultValue={0}
                         />
                 </li>
             </ul>
