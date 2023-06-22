@@ -1,6 +1,7 @@
 [
     {
       "name": "레이네드",
+      "imgURL": "wpimg/supe/4.png",
       "color": "#000000",
       "videoURL": "supe/레이네드.mp4",
       "information": {
@@ -63,6 +64,7 @@
     },
     {
       "name": "디바우어",
+      "imgURL": "wpimg/supe/1.png",
       "color": "#FFAA00",
       "videoURL": "supe/디바우어.mp4",
       "information": {
@@ -125,6 +127,7 @@
     },
     {
       "name": "잔월효성",
+      "imgURL": "wpimg/supe/2.png",
       "color": "#55FFFF",
       "videoURL": "supe/잔월효성.mp4",
       "information": {
@@ -187,6 +190,7 @@
     },
     {
       "name": "타라시스",
+      "imgURL": "wpimg/supe/3.png",
       "color": "#555555",
       "videoURL": "supe/타라시스.mp4",
       "information": {

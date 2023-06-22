@@ -1,6 +1,7 @@
 [
     {
       "name": "초월 다크로즈",
+      "imgURL": "wpimg/legend/legend2/9.png",
       "color": "#000000",
       "videoURL": "legend/초월다크로즈.mp4",
       "information": {
@@ -17,6 +18,7 @@
     },
     {
       "name": "초월 문라이트",
+      "imgURL": "wpimg/legend/legend2/7.png",
       "color": "#00AAAA",
       "videoURL": "legend/초월문라이트.mp4",
       "information": {
@@ -33,6 +35,7 @@
     },
     {
       "name": "초월 브이미르",
+      "imgURL": "wpimg/legend/legend2/8.png",
       "color": "#555555",
       "videoURL": "legend/초월브이미르.mp4",
       "information": {
@@ -49,6 +52,7 @@
     },
     {
       "name": "초월 블레이드 브랜디쉬",
+      "imgURL": "wpimg/legend/legend2/6.png",
       "color": "#555555",
       "videoURL": "legend/초월블브.mp4",
       "information": {
@@ -65,6 +69,7 @@
     },
     {
       "name": "초월 세크리트",
+      "imgURL": "wpimg/legend/legend2/5.png",
       "color": "#949494",
       "videoURL": "legend/초월세크리트.mp4",
       "information": {
@@ -81,6 +86,7 @@
     },
     {
       "name": "초월 하데스",
+      "imgURL": "wpimg/legend/legend2/3.png",
       "color": "#AA00AA",
       "videoURL": "legend/초월하데스.mp4",
       "information": {
@@ -97,6 +103,7 @@
     },
     {
       "name": "초월 혈계심판",
+      "imgURL": "wpimg/legend/legend2/4.png",
       "color": "#AA0000",
       "videoURL": "legend/초월혈심.mp4",
       "information": {
@@ -113,6 +120,7 @@
     },
     {
       "name": "초월 흑월참",
+      "imgURL": "wpimg/legend/legend2/2.png",
       "color": "#000000",
       "videoURL": "legend/초월흑월참.mp4",
       "information": {
@@ -129,6 +137,7 @@
     },
     {
       "name": "초월 흡혈귀",
+      "imgURL": "wpimg/legend/legend2/1.png",
       "color": "#AA0000",
       "videoURL": "legend/초월흡혈귀.mp4",
       "information": {

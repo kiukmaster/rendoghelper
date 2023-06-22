@@ -1,6 +1,7 @@
 [
   {
     "name": "가디언",
+    "imgURL": "wpimg/epic/1.png",
     "color": "#029302",
     "videoURL": "epic/가디언.mp4",
     "information": {
@@ -51,6 +52,7 @@
   },
   {
     "name": "리스크",
+    "imgURL": "wpimg/epic/8.png",
     "color": "#020195",
     "videoURL": "epic/리스크.mp4",
     "information": {
@@ -101,6 +103,7 @@
   },
   {
     "name": "블랙홀",
+    "imgURL": "wpimg/epic/3.png",
     "color": "#555555",
     "videoURL": "epic/블랙홀.mp4",
     "information": {
@@ -157,6 +160,7 @@
   },
   {
     "name": "비숍",
+    "imgURL": "wpimg/epic/2.png",
     "color": "#FF55FF",
     "videoURL": "epic/비숍.mp4",
     "information": {
@@ -207,6 +211,7 @@
   },
   {
     "name": "슈메티드",
+    "imgURL": "wpimg/epic/4.png",
     "color": "#949494",
     "videoURL": "epic/슈메티드.mp4",
     "information": {
@@ -251,6 +256,7 @@
   },
   {
     "name": "아르마",
+    "imgURL": "wpimg/epic/5.png",
     "color": "#AA00AA",
     "videoURL": "epic/아르마.mp4",
     "information": {
@@ -313,6 +319,7 @@
   },
   {
     "name": "에놉시스",
+    "imgURL": "wpimg/epic/11.png",
     "color": "#AA00AA",
     "videoURL": "epic/에놉시스.mp4",
     "information": {
@@ -369,6 +376,7 @@
   },
   {
     "name": "워터폴",
+    "imgURL": "wpimg/epic/10.png",
     "color": "#55FFFF",
     "videoURL": "epic/워터폴.mp4",
     "information": {
@@ -425,6 +433,7 @@
   },
   {
     "name": "익스플로젼",
+    "imgURL": "wpimg/epic/6.png",
     "color": "#FFAA00",
     "videoURL": "epic/익스플로젼.mp4",
     "information": {
@@ -481,6 +490,7 @@
   },
   {
     "name": "프런처",
+    "imgURL": "wpimg/epic/9.png",
     "color": "#00AAAA",
     "videoURL": "epic/프런처.mp4",
     "information": {
@@ -538,6 +548,7 @@
   },
   {
     "name": "하포럼",
+    "imgURL": "wpimg/epic/7.png",
     "color": "#FF5555",
     "videoURL": "epic/하포럼.mp4",
     "information": {

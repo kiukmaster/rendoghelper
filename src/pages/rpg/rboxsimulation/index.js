@@ -31,7 +31,7 @@ export default function RandomBoxPage() {
     return (
         <div className="ta_center">
             <h1>랜덤박스 시뮬레이션</h1>
-            <img src="/chest.png" alt="..." loading="lazy" /> <br />
+            <img src="/chest.png" width={200} height={200} alt="..." loading="lazy" /> <br />
             <label>오픈할 랜덤박스의 갯수 : </label>
             <input ref={boxRef} type="number" min="1" max="10" />
             <button className="MobModalBtn" onClick={openBox}>상자열기!</button>

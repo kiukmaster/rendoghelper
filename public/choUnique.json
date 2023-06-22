@@ -1,6 +1,7 @@
 [
     {
       "name": "초월 네크로해머",
+      "imgURL": "wpimg/unique/unique2/9.png",
       "color": "#FF5555",
       "videoURL": "unique/초월 네크로헤머.mp4",
       "information": {
@@ -17,6 +18,7 @@
     },
     {
       "name": "초월 데스페라도",
+      "imgURL": "wpimg/unique/unique2/10.png",
       "color": "#AA00AA",
       "videoURL": "unique/초월 데스페라도.mp4",
       "information": {
@@ -33,6 +35,7 @@
     },
     {
       "name": "초월 라이오닉",
+      "imgURL": "wpimg/unique/unique2/7.png",
       "color": "#AA0000",
       "videoURL": "unique/초월 라이오닉.mp4",
       "information": {
@@ -49,6 +52,7 @@
     },
     {
       "name": "초월 마그네트",
+      "imgURL": "wpimg/unique/unique2/5.png",
       "color": "#AA0000",
       "videoURL": "unique/초월 마그네트.mp4",
       "information": {
@@ -65,6 +69,7 @@
     },
     {
       "name": "초월 매직콜리젼",
+      "imgURL": "wpimg/unique/unique2/4.png",
       "color": "#FFFF55",
       "videoURL": "unique/초월 매직 콜리젼.mp4",
       "information": {
@@ -81,6 +86,7 @@
     },
     {
       "name": "초월 메테오",
+      "imgURL": "wpimg/unique/unique2/6.png",
       "color": "#AA0000",
       "videoURL": "unique/초월 메테오.mp4",
       "information": {
@@ -97,6 +103,7 @@
     },
     {
       "name": "초월 볼케이노",
+      "imgURL": "wpimg/unique/unique2/3.png",
       "color": "#FF5555",
       "videoURL": "unique/초월 볼케이노.mp4",
       "information": {
@@ -113,6 +120,7 @@
     },
     {
       "name": "초월 사령소환",
+      "imgURL": "wpimg/unique/unique2/2.png",
       "color": "#949494",
       "videoURL": "unique/초월 사령소환.mp4",
       "information": {
@@ -129,6 +137,7 @@
     },
     {
       "name": "초월 셀프익스팅션",
+      "imgURL": "wpimg/unique/unique2/1.png",
       "color": "#000000",
       "videoURL": "unique/초월 셀프익스팅션.mp4",
       "information": {
@@ -145,6 +154,7 @@
     },
     {
       "name": "초월 스타 런쳐",
+      "imgURL": "wpimg/unique/unique2/17.png",
       "color": "#FFFF55",
       "videoURL": "unique/초월 스타런처.mp4",
       "information": {
@@ -161,6 +171,7 @@
     },
     {
       "name": "초월 스타블래스터",
+      "imgURL": "wpimg/unique/unique2/16.png",
       "color": "#FFFF55",
       "videoURL": "unique/초월 스타블래스터.mp4",
       "information": {
@@ -177,6 +188,7 @@
     },
     {
       "name": "초월 스톰크러셔",
+      "imgURL": "wpimg/unique/unique2/15.png",
       "color": "#FFFF55",
       "videoURL": "unique/초월 스톰크러셔.mp4",
       "information": {
@@ -194,6 +206,7 @@
     },
     {
       "name": "초월 에반리스트",
+      "imgURL": "wpimg/unique/unique2/14.png",
       "color": "#FF55FF",
       "videoURL": "unique/초월 에반리스트.mp4",
       "information": {
@@ -210,6 +223,7 @@
     },
     {
       "name": "초월 트랩",
+      "imgURL": "wpimg/unique/unique2/18.png",
       "color": "#FFAA00 ",
       "videoURL": "unique/초월 트랩.mp4",
       "information": {
@@ -226,6 +240,7 @@
     },
     {
       "name": "초월 트리플스타",
+      "imgURL": "wpimg/unique/unique2/13.png",
       "color": "#FFFF55",
       "videoURL": "unique/초월 트리플 스타.mp4",
       "information": {
@@ -242,6 +257,7 @@
     },
     {
       "name": "초월 프로미넌트",
+      "imgURL": "wpimg/unique/unique2/12.png",
       "color": "#FFAA00",
       "videoURL": "unique/초월 프로미넌트.mp4",
       "information": {
@@ -258,6 +274,7 @@
     },
     {
       "name": "초월 헤비스매셔",
+      "imgURL": "wpimg/unique/unique2/11.png",
       "color": "#5555FF",
       "videoURL": "unique/초월 헤비스매셔.mp4",
       "information": {

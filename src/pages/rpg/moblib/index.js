@@ -29,7 +29,7 @@ export default function MobCollection() {
 
     return (
         <div>
-            <div className="mob_search_container">
+            <div className="search_container">
                 <input
                     className='searchbar'
                     type='text'

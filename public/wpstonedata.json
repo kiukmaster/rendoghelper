@@ -1,0 +1,371 @@
+[
+    {
+      "name": "초월 가디언",
+      "imgURL": "wpimg/epic/epic2/1.png",
+      "RedStone": 0,
+      "YellowStone": 1,
+      "GreenStone": 3,
+      "BlueStone": 0,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 리스크",
+      "imgURL": "wpimg/epic/epic2/2.png",      
+      "RedStone": 0,
+      "YellowStone": 2,
+      "GreenStone": 1,
+      "BlueStone": 2,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 블랙홀",
+      "imgURL": "wpimg/epic/epic2/3.png",      
+      "RedStone": 1,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 4
+    },
+    {
+      "name": "초월 비숍",
+      "imgURL": "wpimg/epic/epic2/4.png",      
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 1,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 슈메티드",
+      "imgURL": "wpimg/epic/epic2/5.png",      
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 0,
+      "BlueStone": 2,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 아르마",
+      "imgURL": "wpimg/epic/epic2/9.png",      
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 1,
+      "PurpleStone": 4
+    },
+    {
+      "name": "초월 에놉시스",
+      "imgURL": "wpimg/epic/epic2/6.png",      
+      "RedStone": 0,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 1,
+      "PurpleStone": 2
+    },
+    {
+      "name": "초월 워터폴",
+      "imgURL": "wpimg/epic/epic2/7.png",      
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 5,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 익스플로젼",
+      "imgURL": "wpimg/epic/epic2/8.png",      
+      "RedStone": 5,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 프런처",
+      "imgURL": "wpimg/epic/epic2/11.png",      
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 3,
+      "BlueStone": 2,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 하포럼",
+      "imgURL": "wpimg/epic/epic2/10.png",      
+      "RedStone": 2,
+      "YellowStone": 1,
+      "GreenStone": 2,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 네크로해머",
+      "imgURL": "wpimg/unique/unique2/9.png",
+      "RedStone": 2,
+      "YellowStone": 0,
+      "GreenStone": 2,
+      "BlueStone": 1,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 데스페라도",
+      "imgURL": "wpimg/unique/unique2/10.png",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 5
+    },
+    {
+      "name": "초월 라이오닉",
+      "imgURL": "wpimg/unique/unique2/7.png",
+      "RedStone": 3,
+      "YellowStone": 1,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 마그네트",
+      "imgURL": "wpimg/unique/unique2/5.png",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 3,
+      "BlueStone": 1,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 매직콜리젼",
+      "imgURL": "wpimg/unique/unique2/4.png",
+      "RedStone": 0,
+      "YellowStone": 1,
+      "GreenStone": 4,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 메테오",
+      "imgURL": "wpimg/unique/unique2/6.png",
+      "RedStone": 5,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 볼케이노",
+      "imgURL": "wpimg/unique/unique2/3.png",
+      "RedStone": 4,
+      "YellowStone": 1,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 사령소환",
+      "imgURL": "wpimg/unique/unique2/2.png",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 2,
+      "BlueStone": 1,
+      "PurpleStone": 2
+    },
+    {
+      "name": "초월 셀프익스팅션",
+      "imgURL": "wpimg/unique/unique2/1.png",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 1,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 스타 런쳐",
+      "imgURL": "wpimg/unique/unique2/17.png",
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 2
+    },
+    {
+      "name": "초월 스타블래스터",
+      "imgURL": "wpimg/unique/unique2/16.png",
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 0,
+      "BlueStone": 2,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 스톰크러셔",
+      "imgURL": "wpimg/unique/unique2/15.png",
+      "RedStone": 0,
+      "YellowStone": 2,
+      "GreenStone": 1,
+      "BlueStone": 2,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 에반리스트",
+      "imgURL": "wpimg/unique/unique2/14.png",
+      "RedStone": 1,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 1,
+      "PurpleStone": 3
+    },
+    {
+      "name": "초월 트랩",
+      "imgURL": "wpimg/unique/unique2/18.png",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 2,
+      "BlueStone": 1,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 트리플스타",
+      "imgURL": "wpimg/unique/unique2/13.png",
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 2,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 프로미넌트",
+      "imgURL": "wpimg/unique/unique2/12.png",
+      "RedStone": 2,
+      "YellowStone": 1,
+      "GreenStone": 2,
+      "BlueStone": 0,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 헤비스매셔",
+      "imgURL": "wpimg/unique/unique2/11.png",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 0,
+      "BlueStone": 2,
+      "PurpleStone": 3
+    },  
+    {
+      "name": "초월 레이네드",
+      "imgURL": "wpimg/supe/supe2/3.png",
+      "RedStone": 4,
+      "YellowStone": 4,
+      "GreenStone": 4,
+      "BlueStone": 4,
+      "PurpleStone": 9
+    },
+    {
+      "name": "초월 디바우어",
+      "imgURL": "wpimg/supe/supe2/1.png",
+      "RedStone": 9,
+      "YellowStone": 9,
+      "GreenStone": 1,
+      "BlueStone": 0,
+      "PurpleStone": 6
+    },
+    {
+      "name": "초월 잔월효성",
+      "imgURL": "wpimg/supe/supe2/2.png",
+      "RedStone": 0,
+      "YellowStone": 3,
+      "GreenStone": 8,
+      "BlueStone": 9,
+      "PurpleStone": 5
+    },
+    {
+      "name": "초월 타라시스",
+      "imgURL": "wpimg/supe/supe2/4.png",
+      "RedStone": 2,
+      "YellowStone": 6,
+      "GreenStone": 9,
+      "BlueStone": 1,
+      "PurpleStone": 7
+    },
+    {
+      "name": "초월 다크로즈",
+      "imgURL": "wpimg/legend/legend2/9.png",
+      "RedStone": 3,
+      "YellowStone": 1,
+      "GreenStone": 0,
+      "BlueStone": 0,
+      "PurpleStone": 5
+    },
+    {
+      "name": "초월 문라이트",
+      "imgURL": "wpimg/legend/legend2/7.png",
+      "RedStone": 2,
+      "YellowStone": 2,
+      "GreenStone": 2,
+      "BlueStone": 3,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 브이미르",
+      "imgURL": "wpimg/legend/legend2/8.png",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 3,
+      "BlueStone": 3,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 블레이드 브랜디쉬",
+      "imgURL": "wpimg/legend/legend2/6.png",
+      "RedStone": 0,
+      "YellowStone": 1,
+      "GreenStone": 2,
+      "BlueStone": 1,
+      "PurpleStone": 5
+    },
+    {
+      "name": "초월 세크리트",
+      "imgURL": "wpimg/legend/legend2/5.png",
+      "RedStone": 0,
+      "YellowStone": 0,
+      "GreenStone": 1,
+      "BlueStone": 4,
+      "PurpleStone": 4
+    },
+    {
+      "name": "초월 하데스",
+      "imgURL": "wpimg/legend/legend2/3.png",
+      "RedStone": 1,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 2,
+      "PurpleStone": 4
+    },
+    {
+      "name": "초월 혈계심판",
+      "imgURL": "wpimg/legend/legend2/4.png",
+      "RedStone": 5,
+      "YellowStone": 1,
+      "GreenStone": 1,
+      "BlueStone": 1,
+      "PurpleStone": 1
+    },
+    {
+      "name": "초월 흑월참",
+      "imgURL": "wpimg/legend/legend2/2.png",
+      "RedStone": 1,
+      "YellowStone": 4,
+      "GreenStone": 3,
+      "BlueStone": 1,
+      "PurpleStone": 0
+    },
+    {
+      "name": "초월 흡혈귀",
+      "imgURL": "wpimg/legend/legend2/1.png",
+      "RedStone": 3,
+      "YellowStone": 3,
+      "GreenStone": 1,
+      "BlueStone": 0,
+      "PurpleStone": 2
+    }
+]

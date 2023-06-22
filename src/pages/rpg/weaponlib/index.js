@@ -44,7 +44,7 @@ export default function WeaponPage() {
 
     return (
         <div>
-            <div className="mob_search_container">
+            <div className="search_container">
                 <input
                     className='searchbar search_border'
                     type='text'
@@ -57,7 +57,8 @@ export default function WeaponPage() {
                 return(
                     <div className="border_line ta_center weapon_container" key={weapon.color + index}>
                         <br />
-                        <span style={{ color: weapon.color }}>{weapon.name}</span> <br />
+                        <img src={`/${weapon.imgURL}`} alt="..." loading="lazy" width={100} height={100} />
+                        <span className="wplib_span" style={{ color: weapon.color }}>{weapon.name}</span>
                         <button className="MobModalBtn" onClick={() => onClickBtn(weapon)}>확인하기</button>
                     </div>)
             })}

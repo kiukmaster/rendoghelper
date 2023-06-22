@@ -2,76 +2,73 @@ import Link from "next/link";
 
 export default function RpgPage() {
     return (
-        <div>
-            <div className="rpg_select_container">
-                <div className="rpg_menu_container">
+        <>
+            <ul className="rpg_select_container">
+                <li>
                     <Link href="/rpg/moneycal" legacyBehavior>
                         <a>
-                            <img src="/calimg/5.png" alt="..." loading="lazy" />
-                            <p>강화석 계산기</p>
+                            <img className="warp_img" src="/calimg/5.png" alt="..." loading="lazy" />
+                            <span className="warp_text">강화석 계산기</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
+                </li>
+                <li>
                     <Link href="/rpg/bosscal" legacyBehavior>
                         <a>
-                            <img src="/boss/boss7.png" alt="..." loading="lazy" />
-                            <p>전리품 계산기</p>
+                            <img className="warp_img" src="/boss/boss7.png" alt="..." loading="lazy" />
+                            <span className="warp_text">전리품 계산기</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
+                </li>
+                <li>
                     <Link href="/rpg/moblib" legacyBehavior>
                         <a>
-                            <img src="/mob/38.png" alt="..." loading="lazy" />
-                            <p>몬스터 도감</p>
+                            <img className="warp_img" src="/mob/38.png" alt="..." loading="lazy" />
+                            <span className="warp_text">몬스터 도감</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
+                </li>
+                <li>
                     <Link href="/rpg/weaponlib" legacyBehavior>
                         <a>
-                            <img src="/2.png" alt="..." loading="lazy" />
-                            <p>무기 도감</p>
+                            <img className="warp_img" src="/2.png" alt="..." loading="lazy" />
+                            <span className="warp_text">무기 도감</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
+                </li>
+                <li>
                     <Link href="/rpg/rboxsimulation" legacyBehavior>
                         <a>
-                            <img src="/chest.png" alt="..." loading="lazy" />
-                            <p>랜덤박스 시뮬레이션</p>
+                            <img className="warp_img" src="/chest.png" alt="..." loading="lazy" />
+                            <span className="warp_text">랜덤박스 시뮬레이션</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
+                </li>
+                <li>
                     <Link href="/rpg/mboxsimulation" legacyBehavior>
                         <a>
-                            <img src="/echest.png" alt="..." loading="lazy" />
-                            <p>미스틱박스 시뮬레이션</p>
+                            <img className="warp_img" src="/echest.png" alt="..." loading="lazy" />
+                            <span className="warp_text">미스틱박스 시뮬레이션</span>
                         </a>
                     </Link>
-                </div>
-                <div className="rpg_menu_container">
-                    <Link href="/rpg/bosstimer" legacyBehavior>
+                </li>
+                <li>
+                    <Link href="/rpg/transcendence" legacyBehavior>
                         <a>
-                            <img src="timer.jpg" alt="..." loading="lazy" />
-                            <p>인게임 보스시간 확인하기</p>
-                            <p>커밍 순</p>
+                            <img className="warp_img" src="/wpimg/legend/legend2/3.png" alt="..." loading="lazy" />
+                            <span className="warp_text">초월 도우미</span>
                         </a>
                     </Link>
-                </div>
-            </div>
+                </li>
+
+            </ul>
 
             <style jsx>{`
 
-            img {
-                width: 100px;
-                height: 100px;
-            }
-
-            div {
-                text-align: center;
+            li {
+                margin: 1.2rem;
+                width: 200px;
+                height: 200px;
             }
 
             a {
@@ -82,6 +79,6 @@ export default function RpgPage() {
             }
 
             `}</style>
-        </div>
+        </>
     );
 }

@@ -2,31 +2,30 @@ html, body {
     margin: 0;
 }
 
-.random_select_container{
-    display: grid;
-    justify-content: center;
-    margin: 2rem;
+/* -- 잡 CSS -- */
+
+.Container {
+    text-align: center;
+}
+.border_line {
+    border-top: solid 1px gray;
+}
+.f-b {
+    font-weight: bold;
+    font-size: 25px;
+}
+.ta_center {
+    text-align: center;
 }
 
-.random_menu_container {
-    padding: 1rem;
-    width: 300px;
-    border: solid 2px #5E5E5E;
-    border-radius: 10px;
-    margin-top: 20px;
-}
+/* -- 잡 CSS -- */
 
 .result_box {
     margin: 100px;
 }
 
-.border_line {
-    border-top: solid 1px gray;
-}
-
-.f-b {
-    font-weight: bold;
-    font-size: 25px;
+.wplib_span{
+    display: block;
 }
 
 .mob_lib_sub_container {
@@ -40,10 +39,11 @@ html, body {
     grid-template-columns: 1fr 1fr;
 }
 
-.mob_search_container{
+.search_container{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .searchbar {
     border: solid 3px purple;
@@ -58,6 +58,8 @@ html, body {
 .searchbar:focus{
     border-color: purple;
 }
+
+/* -- 모달부분 -- */
 
 .MobModalBtn {
     margin: 2rem;
@@ -94,23 +96,90 @@ html, body {
     }
 }
 
-.boss_main_cal_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+/* -- 모달부분 -- */
 
-.input_size {
-    width: 50px;
+/* -- 초월석 계산기 -- */
+.opentranbtn {
+    margin: 2rem;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 2px purple;
 }
-
-.ta_center {
+.tran_name {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tran_btn_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.tran_list {
+    text-align: center;
+    margin: 3rem;
+}
+.stone_search_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.stone_input {
+    border: solid 3px purple;
+    font-size: 0.7rem;
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 12px;
+    font-weight: bold;
     text-align: center;
 }
 
-.boss_sub_cal_container {
-    margin: 3rem;
+/* -- 초월석 계산기 -- */
+
+/* -- 보스 계산기 -- */
+
+.condi_span {
+    display: block;
+    font-size: 20px;
     font-weight: bold;
 }
+.condition_check:hover {
+    cursor: pointer;
+}
+.condition_check {
+    margin: 2rem;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    height: 35px;
+    border: 2px solid #7f79d8 ;
+    border-radius: 12px;
+}
+.boss_cal_rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boss_cal_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+.input_size {
+    width: 50px;
+}
+.boss_cal_list {
+    width: 200px;
+    height: 100px;
+}
+
+/* -- 보스 계산기 -- */
+
+/* -- 강화석 계산기 --  */
 
 .calculate_container {
     margin: 3rem;
@@ -120,48 +189,22 @@ html, body {
     font-weight: bold;
 }
 
-.rpg_menu_container {
-    padding: 1rem;
-    width: 300px;
-    border: solid 2px #5E5E5E;
-    border-radius: 10px;
-    margin-top: 20px;
+/* -- 강화석 계산기 --  */
+
+/* RPG 워프 컨테이너 */
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .rpg_select_container {
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin: 2rem;
-}
-
-.textmain {
-        font-weight: bold;
-        font-size: 32px;
-}
-
-.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
-}
-
-.textDetail {
-    color: gray;
-    font-size: 14px;
-}
-
-.warpContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-}
-
-.warpBox {
-    margin-top: 2.3rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    padding-top: 2rem;
-    border: solid 2px black;
-    border-radius: 12px;
 }
 
 .rdimg {
@@ -169,44 +212,101 @@ html, body {
     height: 250px;
 }
 
+
+.warp_img {
+    width: 100px;
+    height: 100px;
+}
+
+.warp_text {
+    display: block;
+    text-align: content;
+    font-size: 16px
+}
+
+/* RPG 워프 컨테이너 */
+
+
+/* -- 메인페이지 CSS -- */
+
+.textmain {
+    font-weight: bold;
+    font-size: 32px;
+}
+.textDetail {
+    color: gray;
+    font-size: 14px;
+}
+.warpContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.warpBox {
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 2px black;
+    border-radius: 12px;
+    text-align: center;
+}
 .imgBox {
     padding: 100px;
     background-image: url('/mainimg/RD.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+/* -- 메인페이지 CSS -- */
 
 @media (max-width: 1000px){
     .rdimg {
         width: 300px;
         height: 200px;
     }
+    .warp_img {
+        width: 100px;
+        height: 100px;
+    }
+    .rpg_select_container {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .warp_text {
+        display: block;
+        text-align: content;
+        font-size: 20px
+    }
 }
 
 @media (min-width: 1000px){
     .imgBox {
-        padding: 150px;
+        padding: 120px;
     }
 }
 
 @media (max-width: 880px){
-    .rdimg {
-        width: 250px;
-        height: 130px;
-    }
-    .warpContainer {
-        margin-top: 2.3rem;
-        display: block;
-        text-align: center;
-    }
-    .boss_main_cal_container {
+    .boss_cal_container {
         display: grid;
         grid-template-columns: 1fr;
+        font-weight: bold;
     }
     .mob_lib_container {
         display: grid;
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1200px){
+    .stone_search_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 2rem;
     }
 }
 

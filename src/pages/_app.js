@@ -15,7 +15,7 @@ export default function App({Component, pageProps}) {
                 <meta property="og:title" content="렌독서버 도우미" />
                 <meta property="og:description" content="마인크래프트 1.12.2 ~ 최신버전을 지원하는 RPG서버 렌독서버의 유저분들에게 여러가지 기능으로 도움을 줄 수 있는 웹 사이트입니다. 강화석 계산기, 보스 전리품 계산기, 무기도감, 스킬영상 등 다양한 기능이 있습니다." />
                 <meta property="og:url" content="https://rdhelper.site" />
-                <title>렌독서버 도우미</title>
+                <title>렌독 서버 도우미 - Rendog Server Helper</title>
             </Head>
             <Layout />
             <Component {...pageProps} />

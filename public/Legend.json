@@ -1,6 +1,7 @@
 [
     {
       "name": "다크로즈",
+      "imgURL": "wpimg/legend/6.png",
       "color": "#000000",
       "videoURL": "legend/다크로즈.mp4",
       "information": {
@@ -57,6 +58,7 @@
     },
     {
       "name": "문라이트",
+      "imgURL": "wpimg/legend/5.png",
       "color": "#00AAAA",
       "videoURL": "legend/문라이트.mp4",
       "information": {
@@ -119,6 +121,7 @@
     },
     {
       "name": "브이미르",
+      "imgURL": "wpimg/legend/3.png",
       "color": "#555555",
       "videoURL": "legend/브이미르.mp4",
       "information": {
@@ -181,6 +184,7 @@
     },
     {
       "name": "블레이드 브랜디쉬",
+      "imgURL": "wpimg/legend/4.png",
       "color": "#555555",
       "videoURL": "legend/블브.mp4",
       "information": {
@@ -243,6 +247,7 @@
     },
     {
       "name": "세크리트",
+      "imgURL": "wpimg/legend/2.png",
       "color": "#949494",
       "videoURL": "legend/세크리트.mp4",
       "information": {
@@ -305,6 +310,7 @@
     },
     {
       "name": "하데스",
+      "imgURL": "wpimg/legend/8.png",
       "color": "#AA00AA",
       "videoURL": "legend/하데스.mp4",
       "information": {
@@ -367,6 +373,7 @@
     },
     {
       "name": "혈계심판",
+      "imgURL": "wpimg/legend/9.png",
       "color": "#AA0000",
       "videoURL": "legend/혈심.mp4",
       "information": {
@@ -429,6 +436,7 @@
     },
     {
       "name": "흑월참",
+      "imgURL": "wpimg/legend/7.png",
       "color": "#000000",
       "videoURL": "legend/흑월참.mp4",
       "information": {
@@ -491,6 +499,7 @@
     },
     {
       "name": "흡혈귀",
+      "imgURL": "wpimg/legend/1.png",
       "color": "#AA0000",
       "videoURL": "legend/흡혈귀.mp4",
       "information": {

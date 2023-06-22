@@ -1,6 +1,7 @@
 [
     {
       "name": "초월 가디언",
+      "imgURL": "wpimg/epic/epic2/1.png",
       "color": "#029302",
       "videoURL": "epic/초월가디언.mp4",
       "information": {
@@ -17,6 +18,7 @@
     },
     {
       "name": "초월 리스크",
+      "imgURL": "wpimg/epic/epic2/2.png",      
       "color": "#020195",
       "videoURL": "epic/초월리스크.mp4",
       "information": {
@@ -33,6 +35,7 @@
     },
     {
       "name": "초월 블랙홀",
+      "imgURL": "wpimg/epic/epic2/3.png",      
       "color": "#555555",
       "videoURL": "epic/초월블랙홀.mp4",
       "information": {
@@ -49,6 +52,7 @@
     },
     {
       "name": "초월 비숍",
+      "imgURL": "wpimg/epic/epic2/4.png",      
       "color": "#FF55FF",
       "videoURL": "epic/초월비숍.mp4",
       "information": {
@@ -65,6 +69,7 @@
     },
     {
       "name": "초월 슈메티드",
+      "imgURL": "wpimg/epic/epic2/5.png",      
       "color": "#949494",
       "videoURL": "epic/초월슈메티드.mp4",
       "information": {
@@ -81,6 +86,7 @@
     },
     {
       "name": "초월 아르마",
+      "imgURL": "wpimg/epic/epic2/9.png",      
       "color": "#AA00AA",
       "videoURL": "epic/초월아르마.mp4",
       "information": {
@@ -97,6 +103,7 @@
     },
     {
       "name": "초월 에놉시스",
+      "imgURL": "wpimg/epic/epic2/6.png",      
       "color": "#AA00AA",
       "videoURL": "epic/초월에놉시스.mp4",
       "information": {
@@ -113,6 +120,7 @@
     },
     {
       "name": "초월 워터폴",
+      "imgURL": "wpimg/epic/epic2/7.png",      
       "color": "#55FFFF",
       "videoURL": "epic/초월워터폴.mp4",
       "information": {
@@ -129,6 +137,7 @@
     },
     {
       "name": "초월 익스플로젼",
+      "imgURL": "wpimg/epic/epic2/8.png",      
       "color": "#FFAA00",
       "videoURL": "epic/초월익스플로젼.mp4",
       "information": {
@@ -145,6 +154,7 @@
     },
     {
       "name": "초월 프런처",
+      "imgURL": "wpimg/epic/epic2/11.png",      
       "color": "#00AAAA",
       "videoURL": "epic/초월프런처.mp4",
       "information": {
@@ -162,6 +172,7 @@
     },
     {
       "name": "초월 하포럼",
+      "imgURL": "wpimg/epic/epic2/10.png",      
       "color": "#FF5555",
       "videoURL": "epic/초월하포럼.mp4",
       "information": {

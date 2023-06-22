@@ -1,6 +1,7 @@
 [
     {
       "name": "초월 레이네드",
+      "imgURL": "wpimg/supe/supe2/3.png",
       "color": "#000000",
       "videoURL": "supe/초월레이네드.mp4",
       "information": {
@@ -18,6 +19,7 @@
     },
     {
       "name": "초월 디바우어",
+      "imgURL": "wpimg/supe/supe2/1.png",
       "color": "#FFAA00",
       "videoURL": "supe/초월디바우어.mp4",
       "information": {
@@ -34,6 +36,7 @@
     },
     {
       "name": "초월 잔월효성",
+      "imgURL": "wpimg/supe/supe2/2.png",
       "color": "#55FFFF",
       "videoURL": "supe/초월잔월효성.mp4",
       "information": {
@@ -50,6 +53,7 @@
     },
     {
       "name": "초월 타라시스",
+      "imgURL": "wpimg/supe/supe2/4.png",
       "color": "#555555",
       "videoURL": "supe/초월타라시스.mp4",
       "information": {

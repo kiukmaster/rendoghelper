@@ -133,7 +133,7 @@ export default function MythicBoxPage() {
     return (
         <div className="ta_center">
             <h1>미스틱박스 시뮬레이션</h1>
-            <img src="/echest.png" alt="..." loading="lazy" /> <br />
+            <img src="/echest.png" width={116} height={130} alt="..." loading="lazy" /> <br />
             <label>오픈할 랜덤박스의 갯수 : </label>
             <input ref={boxRef} type="number" min="1" max="5" />
             <button className="MobModalBtn" onClick={openBox}>상자열기!</button>

@@ -17,52 +17,52 @@ export default function MoneyCal() {
         <div className="ta_center">
 
             <div className="calculate_container">
-                <img src="/calimg/1.png" alt="..." loading="lazy" />
+                <img src="/calimg/1.png" width={32} height={32} alt="..." loading="lazy" />
                 1강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[0] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/2.png" alt="..." loading="lazy" />
+                <img src="/calimg/2.png" width={32} height={32} alt="..." loading="lazy" />
                 2강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[1] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/3.png" alt="..." loading="lazy" />
+                <img src="/calimg/3.png" width={32} height={32} alt="..." loading="lazy" />
                3강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[2] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/4.png" alt="..." loading="lazy" />
+                <img src="/calimg/4.png" width={32} height={32} alt="..." loading="lazy" />
                 4강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[3] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/5.png" alt="..." loading="lazy" />
+                <img src="/calimg/5.png" width={32} height={32} alt="..." loading="lazy" />
                 5강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[4] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/6.png" alt="..." loading="lazy" />
+                <img src="/calimg/6.png" width={32} height={32} alt="..." loading="lazy" />
                 6강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[5] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/7.png" alt="..." loading="lazy" />
+                <img src="/calimg/7.png" width={32} height={32} alt="..." loading="lazy" />
                 7강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[6] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/8.png" alt="..." loading="lazy" />
+                <img src="/calimg/8.png" width={32} height={32} alt="..." loading="lazy" />
                 8강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[7] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/9.png" alt="..." loading="lazy" />
+                <img src="/calimg/9.png" width={32} height={32} alt="..." loading="lazy" />
                 9강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[8] = el)} />
             </div>
             <div className="calculate_container">
-                <img src="/calimg/10.png" alt="..." loading="lazy" />
+                <img src="/calimg/10.png" width={32} height={32} alt="..." loading="lazy" />
                 10강 강화석 :
                 <input type="number" placeholder="강화석 개수를 입력하세요." ref={(el) => (inputRefs.current[9] = el)} />
             </div>
