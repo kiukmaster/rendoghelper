@@ -22,11 +22,11 @@ export default function ChoHelp() {
     const tranListSend = () => {
         const filteredData = data.filter((stone) => {
             return (
-                stone.RedStone >= parseInt(searchInputs.current[0].value) &&
-                stone.YellowStone >= parseInt(searchInputs.current[1].value) &&
-                stone.GreenStone >= parseInt(searchInputs.current[2].value) &&
-                stone.BlueStone >= parseInt(searchInputs.current[3].value) &&
-                stone.PurpleStone >= parseInt(searchInputs.current[4].value)
+                stone.RedStone <= parseInt(searchInputs.current[0].value) &&
+                stone.YellowStone <= parseInt(searchInputs.current[1].value) &&
+                stone.GreenStone <= parseInt(searchInputs.current[2].value) &&
+                stone.BlueStone <= parseInt(searchInputs.current[3].value) &&
+                stone.PurpleStone <= parseInt(searchInputs.current[4].value)
             );
         });
         
@@ -43,7 +43,7 @@ export default function ChoHelp() {
                         className='stone_input'
                         type='number'
                         placeholder='초월석의 수를 입력하세요.'
-                        ref={(el) => (searchInputs.current[0] = el)}
+                        ref={(e) => (searchInputs.current[0] = e)}
                         defaultValue={0}
                         />
                 </li>
@@ -54,7 +54,7 @@ export default function ChoHelp() {
                         className='stone_input'
                         type='number'
                         placeholder='초월석의 수를 입력하세요.'
-                        ref={(el) => (searchInputs.current[1] = el)}
+                        ref={(e) => (searchInputs.current[1] = e)}
                         defaultValue={0}
                         />
                 </li>
@@ -65,7 +65,7 @@ export default function ChoHelp() {
                         className='stone_input'
                         type='number'
                         placeholder='초월석의 수를 입력하세요.'
-                        ref={(el) => (searchInputs.current[2] = el)}
+                        ref={(e) => (searchInputs.current[2] = e)}
                         defaultValue={0}
                         />
                 </li>
@@ -76,7 +76,7 @@ export default function ChoHelp() {
                         className='stone_input'
                         type='number'
                         placeholder='초월석의 수를 입력하세요.'
-                        ref={(el) => (searchInputs.current[3] = el)}
+                        ref={(e) => (searchInputs.current[3] = e)}
                         defaultValue={0}
                         />
                 </li>
@@ -87,7 +87,7 @@ export default function ChoHelp() {
                         className='stone_input'
                         type='number'
                         placeholder='초월석의 수를 입력하세요.'
-                        ref={(el) => (searchInputs.current[4] = el)}
+                        ref={(e) => (searchInputs.current[4] = e)}
                         defaultValue={0}
                         />
                 </li>
