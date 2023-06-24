@@ -2,10 +2,36 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 import "../globals.css";
 
-export default function App({Component, pageProps}) {
+import { useRouter } from 'next/router'
+import Script from 'next/script'
+import { useEffect } from 'react'
+import * as gtag from '../lib/gtag'
+
+export default function App({ Component, pageProps }) {
+    
+    const router = useRouter()
+
+    useEffect(() => {
+        const handleRouteChange = (url) => {
+            gtag.pageview(url)
+        }
+        router.events.on('routeChangeComplete', handleRouteChange)
+        return () => {
+            router.events.off('routeChangeComplete', handleRouteChange)
+        }
+    }, [router.events])
+
     return (
         <>
             <Head>
+                {/* <!-- Google tag (gtag.js) --> */}
+                <Script
+                    strategy="afterInteractive"
+                    src={`https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD`}
+                />
+
+                <script dangerouslySetInnerHTML={{ __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Dat gtag('config', 'G-TKHH72GXBD', { page_path: window.location.pathname, }); `, }} />
+
                 <link rel="icon" href="./mainimg/Rendog.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
