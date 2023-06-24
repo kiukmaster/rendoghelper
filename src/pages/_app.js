@@ -30,7 +30,13 @@ export default function App({ Component, pageProps }) {
                     src={`https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD`}
                 />
 
-                <script dangerouslySetInnerHTML={{ __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Dat gtag('config', 'G-TKHH72GXBD', { page_path: window.location.pathname, }); `, }} />
+                <script dangerouslySetInnerHTML={{
+                    __html: ` window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '[G-TKHH72GXBD]', { page_path: window.location.pathname });
+                    `,
+                }} />
 
                 <link rel="icon" href="./mainimg/Rendog.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
