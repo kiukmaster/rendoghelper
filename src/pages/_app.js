@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
                     src={`https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD`}
                 />
 
-                <script dangerouslySetInnerHTML={{
+                <Script dangerouslySetInnerHTML={{
                     __html: ` window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
