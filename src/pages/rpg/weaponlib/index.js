@@ -75,11 +75,11 @@ export default function WeaponPage() {
                         <table>
                             <thead>
                             <tr>
-                                <th>빨강 강화석</th>
-                                <th>노랑 강화석</th>
-                                <th>초록 강화석</th>
-                                <th>파랑 강화석</th>
-                                <th>보라 강화석</th>
+                                <th>빨강 초월석</th>
+                                <th>노랑 초월석</th>
+                                <th>초록 초월석</th>
+                                <th>파랑 초월석</th>
+                                <th>보라 초월석</th>
                             </tr>
                             </thead>
                             <tbody>
