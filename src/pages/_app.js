@@ -24,13 +24,7 @@ export default function App({ Component, pageProps }) {
     return (
         <>
             <Head>
-                {/* <!-- Google tag (gtag.js) --> */}
-                <Script
-                    strategy="afterInteractive"
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD`}
-                />
-
-                <Script dangerouslySetInnerHTML={{
+                <script dangerouslySetInnerHTML={{
                     __html: ` window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
@@ -49,6 +43,11 @@ export default function App({ Component, pageProps }) {
                 <meta property="og:url" content="https://rdhelper.site" />
                 <title>렌독 서버 도우미 - Rendog Server Helper</title>
             </Head>
+                {/* <!-- Google tag (gtag.js) --> */}
+                <Script
+                    strategy="afterInteractive"
+                    src={`https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD`}
+                />
             <Layout />
             <Component {...pageProps} />
         </>
