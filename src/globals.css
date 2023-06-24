@@ -182,10 +182,8 @@ html, body {
 /* -- 강화석 계산기 --  */
 
 .calculate_container {
-    margin: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 1rem;
+    text-align: center;
     font-weight: bold;
 }
 
