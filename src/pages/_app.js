@@ -6,6 +6,15 @@ export default function App({Component, pageProps}) {
     return (
         <>
             <Head>
+                {/* <!-- Google tag (gtag.js) --> */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKHH72GXBD"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments)}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-TKHH72GXBD');
+                </script>
                 <link rel="icon" href="./mainimg/Rendog.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
