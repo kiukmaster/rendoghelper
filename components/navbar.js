@@ -3,14 +3,44 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <nav className="mainnav">
-            <Link href="/" legacyBehavior>
-                <a className="warpmain"><span className="logocolor1">Ren</span><span className="logocolor2">dog</span>Helper</a>
-            </Link>
+                <Link href="/" legacyBehavior>
+                    <a className="warpmain">
+                        <span className="logocolor1">Ren</span><span className="logocolor2">dog</span>Helper
+                    </a>
+                </Link>
+            <div className="warpcon">
+                <Link href="/gyesan/bosscal" legacyBehavior>
+                    <a>
+                        <span className="nav_text">계산</span>
+                    </a>
+                </Link>
+                <Link href="/dogam/moblib" legacyBehavior>
+                    <a>
+                        <span className="nav_text">도감</span>
+                    </a>
+                </Link>
+                <Link href="/simul/rboxsimulation" legacyBehavior>
+                    <a>
+                        <span className="nav_text">시뮬레이션</span>
+                    </a>
+                </Link>
+                <Link href="/transcendence" legacyBehavior>
+                    <a>
+                        <span className="nav_text">초월</span>
+                    </a>
+                </Link>
+            </div>
             <style jsx>{`
             .mainnav {
                 background: #6958c6;
-                border-bottom: 2px solid #7f79d8;
-                padding: 0.3rem;
+                padding: 1.4rem;
+            }
+            .warpcon {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
             }
             .warpmain {
                 color: #FFFFFF;
@@ -23,6 +53,13 @@ export default function NavBar() {
             }
             .logocolor2 {
                 color: #FF9900
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+                margin-left: 20px;
             }
             `}</style>
         </nav>

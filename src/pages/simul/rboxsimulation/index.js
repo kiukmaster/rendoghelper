@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import Swal from "sweetalert2";
+import Link from "next/link";
 
 export default function RandomBoxPage() {
     const [result, setResult] = useState([]);
@@ -30,6 +31,11 @@ export default function RandomBoxPage() {
 
     return (
         <div className="ta_center">
+            <div>
+                <Link href="/simul/mboxsimulation" legacyBehavior>
+                    <button>미스틱박스 바로가기</button>
+                </Link>
+            </div>
             <h1>랜덤박스 시뮬레이션</h1>
             <img src="/chest.png" width={200} height={200} alt="..." loading="lazy" /> <br />
             <label>오픈할 랜덤박스의 갯수 : </label>

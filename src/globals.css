@@ -1,5 +1,33 @@
+@font-face {
+    font-family: 'MaruBuri';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/MaruBuri-Light.woff2) format('woff2');
+    font-display: swap;
+}
+
 html, body {
     margin: 0;
+    font-family: 'MaruBuri';
+}
+
+ul, li {
+    list-style: none;
+}
+
+button:hover {
+    transform: scale(1.05) translateY(-10px);
+    cursor: pointer;
+}
+
+button {
+    margin: 2rem;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    height: 35px;
+    border: 2px solid #7f79d8 ;
+    border-radius: 12px;
 }
 
 /* -- 잡 CSS -- */
@@ -46,32 +74,26 @@ html, body {
     text-align: center;
 }
 .searchbar {
-    border: solid 3px purple;
+    border: solid 3px #7f79d8;
     font-size: 1.3rem;
     padding-left: 2rem;
     margin: 7rem;
+    margin-top: 1rem;
     width: 500px;
     height: 50px;
     border-radius: 30px;
     font-weight: bold;
 }
 .searchbar:focus{
-    border-color: purple;
+    border-color: #7f79d8;
+}
+
+.wplibBtn {
+    text-align: center;
 }
 
 /* -- 모달부분 -- */
 
-.MobModalBtn {
-    margin: 2rem;
-    height: 40px;
-    border-radius: 20px;
-    border: solid 2px purple;
-}
-
-.MobModalBtn:hover {
-    transform: scale(1.05) translateY(-10px);
-    cursor: pointer;
-}
 
 .BackModalBox {
     position: fixed;
@@ -147,18 +169,6 @@ html, body {
     font-size: 20px;
     font-weight: bold;
 }
-.condition_check:hover {
-    cursor: pointer;
-}
-.condition_check {
-    margin: 2rem;
-    color: black;
-    background-color: white;
-    font-weight: bold;
-    height: 35px;
-    border: 2px solid #7f79d8 ;
-    border-radius: 12px;
-}
 .boss_cal_rank {
     display: flex;
     justify-content: center;
@@ -191,37 +201,19 @@ html, body {
 
 /* RPG 워프 컨테이너 */
 
-ul, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.rpg_select_container {
-    margin: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-
-.rdimg {
-    width: 400px;
-    height: 250px;
-}
-
-
-.warp_img {
-    width: 100px;
-    height: 100px;
-}
-
 .warp_text {
     display: block;
-    text-align: content;
-    font-size: 16px
+    text-align: center;
+    font-size: 20px
 }
 
+.nav_text {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    color: black;
+}
 /* RPG 워프 컨테이너 */
 
 
@@ -248,42 +240,22 @@ ul, li {
     border-radius: 12px;
     text-align: center;
 }
-.imgBox {
-    padding: 100px;
-    background-image: url('/mainimg/RD.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 /* -- 메인페이지 CSS -- */
-
-@media (max-width: 1000px){
-    .rdimg {
-        width: 300px;
-        height: 200px;
-    }
-    .warp_img {
-        width: 100px;
-        height: 100px;
-    }
-    .rpg_select_container {
-        margin: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .warp_text {
-        display: block;
-        text-align: content;
-        font-size: 20px
-    }
-}
 
 @media (min-width: 1000px){
     .imgBox {
         padding: 120px;
+    }
+}
+
+@media (min-width: 800px){
+    .warpcon {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
     }
 }
 

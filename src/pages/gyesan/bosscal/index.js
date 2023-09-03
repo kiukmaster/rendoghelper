@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import Link from "next/link";
 
 export default function BossCal() {
     const inputRefs = useRef([]);
@@ -70,6 +71,9 @@ export default function BossCal() {
     return (
         <div className="ta_center">
             <h2>가격은 유저거래 기준입니다. 공식아님.</h2>
+            <Link href="/gyesan/moneycal" legacyBehavior>
+                <button className="condition_check">강화석 계산 바로가기</button>
+            </Link>
             <button className="condition_check" onClick={onClickConditionBtn}>시세 확인하기</button>
             {conditionShowModal && 
                 <div className="BackModalBox" onClick={closeModal}>
@@ -244,16 +248,6 @@ export default function BossCal() {
                         </div>}
                 </div>
                 <style jsx>{`
-                    button {
-                        cursor: pointer;
-                        margin-top: 2rem;
-                        margin-bottom: 2rem;
-                        width: 100px;
-                        height: 35px;
-                        border: solid 2px purple;
-                        border-radius: 20px;
-                    }
-                    
                     input {
                         height: 24px;
                         border: solid 3px black;

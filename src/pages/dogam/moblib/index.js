@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function MobCollection() {
     const [data, setData] = useState(null);
@@ -29,6 +30,11 @@ export default function MobCollection() {
 
     return (
         <div>
+            <div className="wplibBtn">
+                <Link href="/dogam/weaponlib" legacyBehavior>
+                    <button>무기 도감</button>
+                </Link>
+            </div>
             <div className="search_container">
                 <input
                     className='searchbar'
