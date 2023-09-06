@@ -8,7 +8,7 @@ export default function Home() {
           alert('오류로 복사를 실패했습니다...');
         }
     };
-      
+
     return (
         <>
             <div className="maincon">
@@ -18,6 +18,7 @@ export default function Home() {
                 <span className="mainword"><button onClick={() => rdCopy("Rendog.kr")} className="copyBtn">Rendog.kr</button></span>
                 <span className="copy_t">클릭시 복사됩니다.</span>
             </div>
+            <a href="2.png" download>asd</a>
             <section className="sec">
                 제작자 : 키욱(Kiu_k)
             </section>

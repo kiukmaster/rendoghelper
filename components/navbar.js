@@ -5,7 +5,7 @@ export default function NavBar() {
         <nav className="mainnav">
                 <Link href="/" legacyBehavior>
                     <a className="warpmain">
-                        <span className="logocolor1">Ren</span><span className="logocolor2">dog</span>Helper
+                        <span className="logocolor1">Ren</span><span className="logocolor2">dog</span><span className="logocolor3">Helper</span>
                     </a>
                 </Link>
             <div className="warpcon">
@@ -32,9 +32,11 @@ export default function NavBar() {
             </div>
             <style jsx>{`
             .mainnav {
-                background: #6958c6;
+                background: #FFFFFF;
                 padding: 1.4rem;
+                border-bottom: 1px solid black;
             }
+
             .warpcon {
                 display: flex;
                 flex-wrap: wrap;
@@ -49,10 +51,13 @@ export default function NavBar() {
                 font-weight: bold;
             }
             .logocolor1 {
-                color: #00FFFF
+                color: #00FFFF;
             }
             .logocolor2 {
-                color: #FF9900
+                color: #FF9900;
+            }
+            .logocolor3 {
+                color: black;
             }
             a {
                 text-decoration: none;

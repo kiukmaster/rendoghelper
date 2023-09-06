@@ -112,10 +112,10 @@ button {
     width: 50rem;
     border-radius: 3rem;
     background-color: #ffffff;
-    > img {
+    /* > img {
         width: 32px;
         height: 32px;
-    }
+    } */
 }
 
 /* -- 모달부분 -- */
@@ -125,7 +125,7 @@ button {
     margin: 2rem;
     height: 40px;
     border-radius: 20px;
-    border: solid 2px purple;
+    border: solid 2px #7f79d8;
 }
 .tran_name {
     display: block;
@@ -150,7 +150,7 @@ button {
     margin: 2rem;
 }
 .stone_input {
-    border: solid 3px purple;
+    border: solid 3px #7f79d8;
     font-size: 0.7rem;
     margin: 10px;
     width: 200px;
