@@ -1,0 +1,163 @@
+const mineflayer = require('mineflayer');
+
+var options = {
+  host: 'rendog.kr',
+  port: 25565,
+  username: '',
+  password: '',
+  version: '1.12.2',
+  auth: 'microsoft'
+}
+
+function deColorize(str) {
+  let regex = /§./g
+  var temp = str
+  temp = temp.replace(regex, "")
+  return temp
+}
+
+function filterString(str) {
+  var temp = deColorize(str)
+  temp = temp.replace("리스폰까지 남은 시간: ", "")
+  temp = temp.replace("[BOSS] ", "")
+  temp = temp.replace("[M] ", "")
+  return temp
+}
+
+function timeConvert(str) {
+  if (str == "현재 소환되어 있는 상태입니다.") return -1
+  if (str == "곧 소환되는 보스입니다.") return -2
+  var times = str.split(' ')
+  var finalTime = 0
+  times.forEach((time, _) => {
+    if (time.includes("시간")) {
+      finalTime += parseInt(time)  * 3600|| 0;
+    }
+    if (time.includes("분")) {
+      finalTime += parseInt(time) * 60 || 0;
+    }
+    if (time.includes("초")) {
+      finalTime += parseInt(time) || 0;
+    }
+  })
+  return finalTime
+}
+
+function randInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+
+let bossTimerData = {}
+
+var bot;
+
+async function createBot() {
+  bot = await mineflayer.createBot(options);
+  bindEvents(bot)
+  
+  function bindEvents(bot) {
+    
+    let isWindowOpened = false
+    let isInRPG = false
+    
+    function gotoRPG(bot) {
+      setTimeout(() => {
+        bot.chat('/RPG')
+        setTimeout(() => {
+          let rand = randInt(1, 3)
+          if (!isWindowOpened) bot.chat('/home ' + rand)
+          isInRPG = true
+        }, 1000)
+      }, 2000)
+    }
+    
+    setInterval(() => {
+      if (!isWindowOpened && isInRPG) {
+        let rand = randInt(1, 3)
+        bot.chat('/home ' + rand)
+        bot.chat('/보스');
+      }
+    }, 30 * 1000);
+    
+    bot.once('spawn', () => {
+      bot.addChatPattern('all', /(.*)/)
+    })
+    
+    bot.on('chat:all', matches => {
+      console.log(matches)
+      if (matches[0].trim() == "Welcome - 렌독서버에 오신것을 진심으로 환영합니다!") {
+        isInRPG = false
+        //Were in lobby
+        gotoRPG(bot)
+      }
+      if (matches[0].trim() == "이곳은 잠수대 입니다... zzZ" || matches[0].trim() == "[잠수] 잠수대에 1분간 계셔서 포인트를 받았습니다 꼬르륵...") {
+        isInRPG = false
+        //Were in AFK
+        gotoRPG(bot)
+      }
+    })
+    
+    bot.on('windowOpen', (window) => {
+      isWindowOpened = true
+      setTimeout(() => {
+        console.log('Opened window:', window.title);
+        
+        if (window.title != '{"text":"§l보스 타이머"}') {
+          bot.closeWindow(window)
+          isWindowOpened = false
+          return
+        }
+        
+        bossTimerData["crawledTime"] = Date.now()
+        timeData = {}
+        
+        window.containerItems()
+        .filter(x => x != null)
+        .filter(x => x.type == 397)
+        .forEach((item, _) => {
+          timeData[filterString(item.customName)] = timeConvert(filterString(item.customLore[0]))
+        }
+        )
+        
+        bossTimerData["BossData"] = timeData
+        console.log(bossTimerData)
+        
+        bot.closeWindow(window)
+        isWindowOpened = false
+      }, 5000)
+    });
+    
+    bot.on('error', (err) => {
+      console.log('Error attempting to reconnect: ' + err.errno + '.');
+      if (err.code == undefined) {
+        console.log('Invalid credentials OR bot needs to wait because it relogged too quickly.');
+        console.log('Will retry to connect in 30 seconds. ');
+        setTimeout(relog, 30000);
+      }
+    });
+    
+    bot.on('end', () => {
+      console.log("Bot has ended");
+      // If set less than 30s you will get an invalid credentials error, which we handle above.
+      setTimeout(relog, 30000);  
+    });
+  }
+  
+  function relog() {
+    console.log("Attempting to reconnect...");
+    bot = mineflayer.createBot(options);
+    bindEvents(bot);
+  }
+}
+
+createBot()
+
+exports.handler = async (event, context) => {
+  // 여기서 요청을 처리합니다.
+  return {
+    statusCode: 200,
+    body: JSON.stringify(bossTimerData),
+    headers: {
+      'Content-Type': 'application/json'
+   
